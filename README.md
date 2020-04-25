@@ -5,3 +5,4 @@ Bike Pooling Application with opensource technologies and mobile friendly interf
 • Fully Responsive Website with Cloud Database.
 • Map interface with Geolocation implemented by open source JavaScript Framework.
 • Static website deployed: https://bikebuddy.netlify.com/
+https://singhkunal2050.github.io/BIkeBuddy/
