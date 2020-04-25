@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>this email</title>
+	<script type="text/javascript"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+	<body>
+		<script>
+
+				// token ::  0f191263-67bb-44e9-94f7-a2e097a4934d		smtpjs.com
+				// probably big emails go to spam thats why single line welcome email
+				//implement send2 for project
+
+
+
+			var the_body="Dear Sir/Mam,Thank you for registering with BikeBuddy. Your registration is successfull.If you would like to view your registration details, you can always recover your password with email.If you forgot your password, simply hit Forgot password and you will be prompted to reset it.If you have any questions leading up to the event, feel free to reply to this email.We look forward to serving you!<br>Kind Regards,<br>Event Staff<br>Pune-411212<br>Twitter: BikeBuddy #hashtag<br>Facebook: bikebuddyy<br>Insta : bikebuddyy<br>(9011) 52-5149<br>Kunal Singh";
+
+			function send1(){
+				Email.send({
+				    Host : "smtp.gmail.com",
+				    Username : "bikebuddyy",
+				    Password : "thepassword",
+				    To : 'singhkunal2051@gmail.com',
+				    From : "bikebuddyy@gmail.com",
+				    Subject : "This is the subject",
+				    Body : "And this is the body"
+					}).then(
+				  message => alert(message)
+				);
+			}
+
+			function send2(){
+				Email.send({
+				    SecureToken : "0f191263-67bb-44e9-94f7-a2e097a4934d",
+				    To : 'singhkunal2051@gmail.com',
+				    From : "bikebuddyy@gmail.com",
+				    Subject : "BikeBuddy is here!!",
+				    Body : "Thank You for registration!!"
+				}).then(
+				  message => alert(message)
+				);
+			}
+
+
+
+		</script>
+		<div style="display:block; background:cyan;">
+			<label>SEND Email :: </label>
+			<input type="button" name="add" value="SEND" onclick="send2()">
+		</div>
+	</body>
+
+</html>

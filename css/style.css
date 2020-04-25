@@ -1,0 +1,484 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+input[type="time"]{
+  font-size:115%;
+}
+
+div .dark div{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+label{
+  padding-top: 10px; 
+}
+
+/*ksr added footer hover anim */
+
+footer:hover{
+  background: #b82800f8;
+}
+
+/*ksr added regis success n fail hidden msg*/
+
+#rsuccess,#fsuccess{
+  color:rgb(57, 252, 57);
+  display: none;
+}
+
+#rfail,#ffail,#pmismatch{
+  color:#ec2e20;
+  display: none;
+}
+
+
+
+/*ksr added sign up form padding and style*/
+
+div .text_1{
+  height:38px;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+}
+
+/*ksr added button hover */
+
+.button_1:hover{
+  background: cornflowerblue;
+}
+
+/*ksr added boxes hover*/
+
+#boxes .box:hover{
+  background: #f5c2b3;  
+  color: #212b48;
+  border: 1px solid #212b48;
+}
+
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  border: 2px solid orangered;
+}
+
+/*maps sidew*/
+div .dark2{
+  padding:45px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  width: 100%;
+}
+div .dark2 p{
+  width: 70%;
+}
+
+
+.dark:hover{
+  background: #252c31;
+}
+
+
+/* Header **/
+header{
+  background:#212b48;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#e8491d 3px solid;
+}
+
+/* Ksr added logo */ 
+#branding a{
+  display: flex;
+}
+
+/** ksr padded the text boxes */ 
+
+
+#branding img{
+  width: 50px; 
+  height: 50px; 
+  padding-right: 10px;
+}
+
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+
+header li{
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#acc2e8;
+  font-weight:bold;
+}
+
+/* Showcase */
+#showcase{
+  min-height:400px;
+  background:url('../img/showcase.jpg') no-repeat -1400px -500px;
+  text-align:center;
+  color:#ffffff;
+  border-bottom:#e8491d 3px solid;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#212b48;
+  border-bottom:#e8491d 3px solid;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:left;
+  width:60%;
+  margin-top:10px;
+}
+
+aside#sidebar2{
+  background: salmon;
+  float:left;
+  width:450%;
+  margin-top:10px;
+}
+
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:97%;
+  padding:5px;
+}
+
+/* Main-col */
+article#main-col{
+  float:right;
+  width:35%;
+}
+
+/*second main col by ksr for maps */
+article#main-col2{
+  float: right;
+  width: 50%;
+}
+
+
+
+/* Services */
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+  border-top: #212b48 3px solid; 
+  border-bottom: #212b48 3px solid;
+
+}
+
+/*ksr added socials */ 
+
+.down a{
+  text-decoration: none;
+  color: #cccccc;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*ksr added a new h2*/
+
+#boxes h2{
+  float: none;
+  text-align: center;
+  padding: 10px;;
+}
+
+/*map*/
+div #map{
+  background: rgb(253, 175, 147);
+  border: 2px solid orangered ;
+  margin-top: 3%;
+  overflow:hidden;
+  height:440px;
+  width:95%;
+  padding: 2%;
+  float: left;
+}
+
+/*nav style ksr*/
+
+header nav li{
+  border:2px solid rgb(14, 12, 24);
+  padding: 10px 20px 10px 20px;
+  /*up right down left*/
+}
+
+/*nav curr back ksr*/
+
+.current{
+  background: rgb(24, 29, 53);
+}
+
+
+/*Radio Male Female Div**/
+.radio_1{
+  display: flex;
+}
+
+/*radio buttons*/
+.radio_1 input{
+  height: 20px;
+}
+
+/*ksr added logout button style*/
+li#logout{
+  background: #830b0b;
+  display: inline-block;
+  padding:5px;
+
+}
+
+
+
+/* Media Queries 768 w*/  /* changed to 818 for better  transitn*/ 
+@media(max-width: 891px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar,
+  aside#sidebar2{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  #boxes .box{
+    width:86%;
+    margin-left: 4%;
+  }
+
+
+  /*te,porary map hiden*/
+
+  article .main-col2{
+    display: none;
+  } 
+
+
+  /*ksr added padding to the logo title*/ 
+
+  header #branding{
+  padding-bottom:10px;
+  }
+
+  header #branding a{
+    display: block;
+    align-self: auto;
+  }
+
+  /**Ksr adding the phone nav tweaks*/
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+
+/** KSR Added the txt alignment at low resolutions */
+
+.text_1{
+  display: flex;
+  width: 100%;  
+  padding: 7px; 
+  margin-top: 2px;
+  margin-bottom: 2px;;
+}
+
+/* ksr added branding at centre for low res*/ 
+
+#branding{
+  align-items: center;
+  justify-content: center;
+}
+
+/*gmaps div span*/
+
+div #map{
+  float: inherit;
+  width: 95%;
+  margin:auto;
+  padding: 5px;
+  background: rgb(229, 155, 128)169, 144);
+  border: 2px solid orangered ;
+  margin-top: 10%;
+
+}
+
+header nav li{
+  width: 80px;
+  border:2px solid rgb(14, 12, 24);
+  display: inline-block;
+  padding: 10px;
+}
+
+.current{
+  background: rgb(24, 29, 53);
+}
+
+/*ksr added logout button style*/
+li#logout {
+  background: rgb(131, 11, 11);
+  display: inline-block;
+  padding:10px;
+
+}
+}
+
+/*------------------------------------------------------------------------*/
+
+@media(max-width: 555px){
+
+  header nav li{
+    width: 120px;
+  }
+  
+
+
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+@media(max-width: 385px){
+
+  header nav li{
+    width: 80px;
+  }
+  
+
+
+}
