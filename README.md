@@ -1,4 +1,4 @@
-# BIkeBudd
+# BIkeBuddy
 Bike Pooling Application with opensource technologies and mobile friendly interface
 
 • Bike Pooling Website for students residing in the same locality.
